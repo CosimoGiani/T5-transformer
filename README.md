@@ -20,7 +20,7 @@ More details about the project in the [presentation](presentation.pdf).
 * <img align="center" height="30" src="https://raw.githubusercontent.com/Adapter-Hub/adapter-transformers/master/adapter_docs/logo.png"> [Adapter Transformers](https://github.com/adapter-hub/adapter-transformers)
 
 ## Usage
-In the repo there are two notebooks, which to facilitate reading have been made specialized for the question-answering task. Despite this, the pipeline presented is totally generalizable to all types of tasks.
+In the repo there are two notebooks, one for "standard" fine-tuning and one for fine-tuning with adapters. To facilitate reading, the notebooks follow the pipeline for the question-answering task. Despite this, the implementations are totally generalizable to all types of tasks.
 1. Execute ```t5-fine-tune.ipynb``` to fine-tune the model. In order to change task, it might be necessary to make small adjustments in the *pre-processing* setup.
 2. Execute ```t5-fine-tune-adapters.ipynb``` to fine-tune the model with the adapters. To manipulate the inner dimensionality of the adapter layer it is sufficient to change properly the value of the *reduction factor*.
 
